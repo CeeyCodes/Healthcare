@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333333;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+}
+
+/* Header starts here */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo{
+    padding-left: 100px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-right: 100px;
+}
+
+nav ul :hover{
+    color: #000009;
+}
+
+nav a{
+    color: #2A5944;
+    text-decoration: none;
+}
+/* Header ends here */
+
+/* Hero starts here */
+.hero{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px 50px; 
+}
+
+.hero .hero-text{
+    margin: 40px 80px;
+    text-align: left;
+}
+
+.hero-text .fa-certificate{
+    color: #2A5944;
+}
+
+.hero-text .span{
+    text-decoration: none;
+}
+
+.hero .hero-text h1{
+    width: 550px;
+    margin: 30px 0px;
+    font-size: 70px;
+    line-height: 1.2;
+}
+
+.hero .hero-text p{
+    width: 550px;
+}
+
+.hero-text .btn{
+    display: flex;
+    align-content: center;
+    gap: 3px;
+}
+
+.btn{
+    padding: 15px 20px;
+    background-color: #2A5944;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.hero-image{
+    width: 640px;
+    height: 500px;
+    margin-right: 70px;
+}
+/* Hero ends here */
+
+/* Services starts here */
+.services-summary{
+    display: flex;
+    justify-content: space-around;
+    background: #2A5944;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.service{
+    color: white;
+}
+
+.service img{
+    width: 60px;
+}
+
+.service h3{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service p{
+    width: 90%;
+    padding-left: 80px;
+    padding-right: 30px;
+}
+/* Services ends here */
+
+/* Detailed services starts here */
+.services{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+}
+
+.services .best-quality h1{
+    text-align: left;
+    font-size: 70px;
+    margin-left: 70px;
+    line-height: 1.2;
+}
+
+.services .best-quality-{
+    padding-top: 40px;
+}
+
+.services .best-quality- p{
+    margin-left: 250px;
+    margin-right: 50px;
+    text-align: left;
+    width: 50%;
+    line-height: 2.0;
+}
+
+.services .best-quality- .btn{
+    margin-left: 250px;
+}
+
+.best-quality- button .btn{
+    color: white;
+}
+/* Detailed services ends here */
+
+/* Service card starts here */
+.detailed-services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 30px 120px;
+}
+
+.service-card{
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    padding: 30px 30px 70px 30px;
+}
+
+.service-card:hover{
+    transition: ease-in 0.5s;
+    transform: scale(1.02);
+}
+
+.service-card h4{
+    margin: 3px;
+}
+
+.service-card p{
+    margin-left: 3px;
+    margin-bottom: 20px;
+}
+
+/* Service card ends here */
+
+/* Appointment starts here */
+.appointment{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    padding: 20px 120px;
+}
+
+.appointment-form{
+    margin-right: 40px;
+}
+
+.appointment-form h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.appointment-form img{
+    margin-left: 280px;
+}
+
+.appointment-form p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.appointment-form form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.appointment-form input{
+    margin: 15px 20px;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 15px;
+}
+
+.appointment-form textarea{
+    margin: 15px 30px 10px 18px;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 95%;
+    font-size: 15px;
+}
+
+.appointment-form .btn{
+    margin-left: 15px;
+}
+
+.doc-section img{
+    width: 540px;
+    height: 500px;
+}
+/* Appointment ends here */
+
+
+/* Testimonial starts here */  
+.testimonials-section{
+    background-color: #2A5944;
+    padding: 60px 80px;
+}
+
+.section-header{
+    margin-bottom: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.testimonials-container .top{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.testimonials-container .top img{
+    height: 100px;
+    width: 100px;
+}
+
+.testimonials-container .stars img{
+    width: 20px;
+    height: 20px;
+}
+
+.testimonials-container .body{
+    color: black;
+}
+
+.testimonials-container{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 33%;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.testimonial-card{
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+/* Testimonial ends here */
+
+/* Article starts here */
+.article-top h2{
+    margin-bottom: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.article-top img{
+    margin: 15px 0px 15px 690px;
+}
+
+.article-top p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.blog .images{
+    width: 400px;
+    height: 300px;
+}
+
+.blog{
+    display: flex;
+    gap: 50px;
+    margin: 30px 100px;
+}
+
+.blog-body{
+    background-color: white;
+}
+
+.blog-body .blog-text{
+    padding: 20px;
+}
+
+.blog-body span{
+    color: #2A5944;
+}
+
+.blog-body h4{
+    font-size: 35px;
+    line-height: 1.2;
+    margin: 10px 0px;
+}
+
+.blog-body p{
+    margin-bottom: 10px;
+}
+
+button{
+    border: none;
+    color: #2A5944;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.blog-btn .btnn{
+    background-color: #2A5944;
+    color: white;
+    padding: 15px 20px;
+    margin-left: 700px;
+}
+/* Article ends here */
+
+/* Footer starts here */
+.footer{
+    background-color: #2A5944;
+    color: white;
+    padding: 60px 80px;
+    margin-top: 30px;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.footer-brand{
+    margin-left: 0px;
+}
+
+.footer-brand p{
+    margin: 6px 0px;
+}
+
+.footer-links h4{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.footer-links a{
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover{
+    color: #000000;
+}
+
+.socials{
+    margin-top: 20px;
+}
+
+.socials i{
+    font-size: 30px;
+}
+/* Footer ends here */
+
+
+
+/* Media Query */
+@media screen and (max-width:900px) {
+    header .logo{
+        padding-left: 0px;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    .hero{
+        padding: 0px;
+        display: block;
+    }
+
+    .hero .hero-text{
+        margin: 50px 20px;
+    }
+
+    .hero .hero-text h1{
+        width: 100%;
+        font-size: 45px;
+    }
+
+    .hero .hero-text p{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .hero-image{
+        width: 500px;
+        height: 400px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .services-summary{
+        display: block;
+    }
+
+    .service{
+        margin-top: 50px;
+    }
+
+    .services{
+        display: block;
+        padding: 0px;
+        padding-top: 50px;
+    }
+
+    .services .best-quality h1{
+        width: 100%;
+        font-size: 45px;
+        margin-left: 20px;
+    }
+
+    .services .best-quality-{
+        padding-top: 10px;
+    }
+
+    .services .best-quality- p{
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .services .best-quality- .btn{
+        margin-left: 20px;
+    }
+
+    .detailed-services{
+        display: block;
+        padding: 20px;
+        margin-top: 20px;  
+    }
+
+    .service-card{
+        margin-bottom: 20px;
+    }
+
+    .appointment{
+        display: block;
+        padding: 20px;
+    }
+
+    .appointment-form h2{
+        text-align: center;
+    }
+
+    .appointment-form p{
+        margin-left: 15px;
+    }
+
+    .appointment-form img{
+        margin-left: 100px;
+    }
+
+    .appointment-form textarea{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .doc-section img{
+        width: 350px;
+        height: 350px;
+        margin-top: 50px;
+    }
+
+    .testimonials-section{
+        padding: 30px 20px;
+    }
+
+    .testimonial-card{
+        display: block;
+    }
+
+    .testimonials-container{
+        width: 100%; 
+    }
+
+    .testimonials-container .body p{
+        width: 100%;
+    }
+
+    .article-top img{
+        margin-left: 125px;
+    }
+
+    .article-top p{
+        width: 100%;
+    }
+
+    .blog{
+        display: block;
+        margin: 20px;
+    }
+
+    .blog .images{
+        width: 350px;
+        height: 300px;
+    }
+
+    .blog-body{
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    .blog-body .blog-text{
+        margin: 5px;
+        width: 100%;
+    }
+
+    .blog-body h4{
+        margin: 0;
+    }
+
+    .blog-btn .btnn{
+    padding: 15px 20px;
+    margin-left: 150px;
+}
+
+    .footer{
+        padding: 40px 20px;
+    }
+    
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+}
